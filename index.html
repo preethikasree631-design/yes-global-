@@ -225,6 +225,35 @@ body {
     </div>
 </div>
 
+  <script>
+function subscribe() {
+    const email = document.getElementById("emailInput").value;
+    const message = document.getElementById("message");
+
+    if (email === "") {
+        message.style.display = "block";
+        message.style.color = "red";
+        message.innerText = "Please enter your email!";
+        return;
+    }
+
+    message.style.display = "block";
+    message.style.color = "green";
+    message.innerText = "Successfully submitted!";
+
+    // optional: clear input
+    document.getElementById("emailInput").value = "";
+}
+</script>
+  <div class="subscribe-box">
+        <input type="email" id="emailInput" placeholder="Enter your business email">
+        <button onclick="subscribe()">Subscribe</button>
+    </div>
+
+    <p id="message" style="margin-top:15px; color: green; display:none;">
+        Successfully submitted!
+    </p>
+
 <!-- Footer -->
 <div class="footer">
     <div class="footer-container">
@@ -271,35 +300,7 @@ body {
   <div class="subscribe-section">
     <h2>Ready to Expand Your Vision?</h2>
     <p>Join our network of innovators and market leaders. Subscribe to our strategic insights.</p>
-
-    <div class="subscribe-box">
-        <input type="email" id="emailInput" placeholder="Enter your business email">
-        <button onclick="subscribe()">Subscribe</button>
-    </div>
-
-    <p id="message" style="margin-top:15px; color: green; display:none;">
-        Successfully submitted!
-    </p>
 </div>
  </html>
-<script>
-function subscribe() {
-    const email = document.getElementById("emailInput").value;
-    const message = document.getElementById("message");
 
-    if (email === "") {
-        message.style.display = "block";
-        message.style.color = "red";
-        message.innerText = "Please enter your email!";
-        return;
-    }
-
-    message.style.display = "block";
-    message.style.color = "green";
-    message.innerText = "Successfully submitted!";
-
-    // optional: clear input
-    document.getElementById("emailInput").value = "";
-}
-</script>
  

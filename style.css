@@ -1,0 +1,308 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HERO */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+/* VIDEO */
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.85));
+}
+
+/* NAVBAR */
+.navbar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar ul li:hover {
+  color: #3ddc97;
+}
+
+/* HERO CONTENT */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* TAG */
+.tag {
+  display: inline-block;
+  background: rgba(255,255,255,0.1);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+/* TITLE */
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.hero-content h1 span {
+color: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+
+.green {
+  color: linear-gradient(to right, #3a7bd5, #00d2ff);
+}
+/* TEXT */
+.hero-content p {
+  max-width: 700px;
+  margin: 20px auto;
+  opacity: 0.8;
+}
+
+/* BUTTONS */
+ button {
+  padding: 12px 22px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+ button:hover {
+  background: #3ddc97;
+  color: #3ddc97;
+  border: none;
+  box-shadow: 0 0 15px #3ddc97;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.stats p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.buttons button {
+  background: none;
+  border: none;
+}
+.bt button {
+  background: none;
+}
+.logo{
+  color: #3ddc97;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: calc();
+}
+.our{
+    color: #2cd18a;
+}
+.more {
+  background: none;
+  color: rgb(31, 189, 220);
+}
+.more:hover{
+  color: rgb(2, 58, 90);
+  background: none;
+  box-shadow: none;
+}
+.all {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.all div {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.loan {
+  background-color: #165f92;
+}
+
+.branding {
+  background-color: #165f92;
+}
+
+.furniture {
+  background-color: #165f92;
+}
+
+.more {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: none;
+  color: rgb(12, 170, 218);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.more:hover {
+  color: #09324e;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f7f9;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  gap: 40px;
+}
+
+/* LEFT */
+.left {
+  flex: 1;
+}
+
+.tag {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.green {
+  color: #4CAF50;
+}
+
+.desc {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+.card .icon {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* RIGHT */
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-box {
+  position: relative;
+  background:none;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+
+
+.projects {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background:none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.projects span {
+  font-size: 10px;
+  color: #ebeef0;
+}
+
+.projects h3 {
+  color: #ebeef0;
+  margin: 5px 0 0;
+}
+.right {
+  flex: 1;
+  display: flex;
+}
+
+.image-box {
+  width: 100%;
+  height: 100%;
+  
+  overflow: hidden;
+  background:none;
+  display: flex;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps image nice without stretching */
+  border-radius: 8px;
+}
